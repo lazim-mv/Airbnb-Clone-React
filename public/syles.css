@@ -1,0 +1,174 @@
+/* body * {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+} */
+* {
+    box-sizing: border-box;
+    /* width: 650px; */
+    margin: 0;
+}
+
+body {
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+    width: 550px;
+    background: #FFFFFF;
+}
+
+section{
+    padding: 20px;
+}
+
+.index{
+    position: relative;
+    background: #E5E5E5;
+}
+
+.App{
+    position: absolute;
+    background: #FFFFFF;
+    left: 50%;
+}
+
+.header{
+    height: 70px;
+    width: 550px;
+    display: flex;
+    padding: 20px 36px;
+    box-shadow: 0px 2.98256px 7.4564px rgba(0, 0, 0, 0.1);
+    background: #FFFFFF;
+}
+
+.header-logo{
+    max-width: 100px;
+}
+
+.grey{
+    color: #918e9b;
+}
+
+.hero-img{
+    display: flex;
+    justify-content: center;
+       margin: 33px 0px 0px 0px;
+}
+
+
+.group-img{
+    background-image: url("./images/Group.png");
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat; /* Do not repeat the image */
+    background-size: cover;
+    width: 395.91px;
+    height: 232px;  
+    /* object-fit: cover; */
+    /* background: #E5E5E5; */
+}
+
+.img-collage{
+    width: 395.91px;
+    height: 232px;
+}
+
+.hero-heading{
+    /* width: 347px;
+    height: 40px; */
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 110%;
+    color: #000000;
+    margin: 32px 0px 0px 36px;
+}
+
+.hero-para{
+    width: 320px;
+    height: 56px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 110%;
+    color: #222222;
+    margin: 16px 0px 60px 36px;
+}
+
+
+/* .card{
+    display: flex;
+} */
+
+.card-container{
+    display: flex;
+    width: 550px;
+    flex-wrap: nowrap;
+    gap: 20px;
+    overflow-x: auto;
+}
+
+.cards{
+    position: relative;
+    width: 175px;
+    font-size: 12px;
+    flex: 0 0 auto;         /* ADD */
+    display: flex;          /* ADD */
+    flex-direction: column;
+}
+
+.cards p{
+    padding-bottom: 10px;
+}
+
+.card-img{
+    width: 100%;
+    border-radius: 9px;
+    margin-bottom: 9px;
+}
+
+.card-stats{
+    display: flex;
+    align-items: center;
+    padding-bottom: 10px;
+    padding-top: 5px;
+}
+
+.card-star{
+    height: 14px;
+    padding-right: 5px;
+}
+
+.card-title{
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.bold{
+    font-weight: bold;
+    margin-top: auto;
+}
+
+
+
+.card-badge {
+    position: absolute;
+    top: 6px;
+    left: 6px;
+    background-color: white;
+    padding: 5px 7px;
+    border-radius: 2px;
+    font-weight: bold;
+}
+
+
+
+
+
+
+
+
+
+
+
+
